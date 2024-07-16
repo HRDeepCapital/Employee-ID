@@ -3,7 +3,7 @@ document.getElementById('searchForm').addEventListener('submit', function(e) {
     let firstName = document.getElementById('firstName').value;
     let lastName = document.getElementById('lastName').value;
 
-    fetch('https://sheets.googleapis.com/v4/spreadsheets/1hB01lK_Io1ds3DK2NeqMUGs7T33rMPtTizKL3m3nQDY/values/current%20employee?key=YOUR_API_KEY')
+    fetch('https://sheets.googleapis.com/v4/spreadsheets/1hB01lK_Io1ds3DK2NeqMUGs7T33rMPtTizKL3m3nQDY/values/current%20employee?key=AIzaSyCIRuMA5J88cDuJcy251w-JyO0sNLvU_K4')
         .then(response => response.json())
         .then(data => {
             let rows = data.values;
